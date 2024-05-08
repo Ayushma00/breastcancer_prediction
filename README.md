@@ -29,18 +29,19 @@ Neural networks are a class of machine learning models inspired by the structure
 
 The dataset used in this project contains various features extracted from breast cancer biopsies, including:
 
-ID: Unique identifier for each patient.
-Diagnosis: The target variable indicating whether the cancer is malignant (M) or benign (B).
-Radius Mean: Mean of distances from the center to points on the perimeter.
-Texture Mean: Standard deviation of gray-scale values.
-Perimeter Mean: Total perimeter of the tumor.
-Area Mean: Total area of the tumor.
-Smoothness Mean: Local variation in radius lengths.
-Compactness Mean: Perimeter^2 / area - 1.0.
-Concavity Mean: Severity of concave portions of the contour.
-Concave Points Mean: Number of concave portions of the contour.
-Symmetry Mean: Symmetry of tumor.
-Fractal Dimension Mean: "Coastline approximation" - 1.
+- **ID**: Unique identifier for each patient.
+- **Diagnosis**: The target variable indicating whether the cancer is malignant (M) or benign (B).
+- **Radius Mean**: Mean of distances from the center to points on the perimeter.
+- **Texture Mean**: Standard deviation of gray-scale values.
+- **Perimeter Mean**: Total perimeter of the tumor.
+- **Area Mean**: Total area of the tumor.
+- **Smoothness Mean**: Local variation in radius lengths.
+- **Compactness Mean**: Perimeter^2 / area - 1.0.
+- **Concavity Mean**: Severity of concave portions of the contour.
+- **Concave Points Mean**: Number of concave portions of the contour.
+- **Symmetry Mean**: Symmetry of tumor.
+- **Fractal Dimension Mean**: "Coastline approximation" - 1.
+
 ... and many more.
 
 
